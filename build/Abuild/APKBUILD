@@ -4,7 +4,7 @@
 pkgname=perl-encode-locale
 _pkgreal=Encode-Locale
 pkgver=1.05
-pkgrel=${pkgrel:-0}
+pkgrel=5
 pkgdesc="Perl module - Determine the locale encoding"
 url="https://metacpan.org/dist/Encode-Locale"
 arch="noarch"
@@ -30,7 +30,6 @@ package() {
 }
 
 
-options="$options ${DISABLE_CHECK:+!check}"
 sha512sums="
 68ed5732fd3645eca2ea54080067677a48f90fc5a594a1b453a322f3127e67a984d539cb5fd41ac63a03b9dab693c070b65e3c70a2a677dc61b4634f3e212d06  Encode-Locale-1.05.tar.gz
 "
